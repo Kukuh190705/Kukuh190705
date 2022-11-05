@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+	<title>SMKN 1 Tangerang</title>
+ 
+</head>
+<body>
+ 
+	<style>
+	*{
+		padding: 0;
+		margin:0;
+		font-family: sans-serif;
+	}
+
+ 
+	.menu{
+		background-color: rgb(12, 98, 174);
+		height: 70px;
+		position: fixed;
+		width: 100%;
+		
+	}
+ 
+	.menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		float: right;
+	}
+ 
+	.menu > ul > li {
+		float: right;
+		padding-bottom: 20px;
+	
+	}
+ 
+	
+	.menu li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 25px 16px;
+		padding-right: 20px;
+	
+		text-decoration: none;
+	}
+ 
+	.menu li a:hover{
+		color: rgb(171, 216, 255);
+		width: max-content;
+	}
+ 
+	li.dropdown {
+		display: block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: rgb(171, 216, 255)!important;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: rgb(44, 111, 191);
+		border-top: 1px solid black;
+		width: auto;
+	}
+ 
+	.isi-dropdown a {
+		color: #ffffff !important;
+		
+    
+	}
+ 
+	.isi-dropdown a:hover {
+		background-color: none;
+		
+		
+	}
+	section{
+		width: auto;
+		background-color:  rgb(215, 215, 215);
+		height: 100vh;
+		display:flexbox;
+		padding-left: 22%;
+		padding-top: 100px;
+		
+	}
+	footer {
+			width: 100%;
+			height: 200px;
+			background-color: rgb(12, 98, 174);
+			color: white;
+			padding-top: 20px;
+			display: flex;
+
+
+
+		}
+	
+	table{
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 70%;
+		border: 1px solid rgb(255, 255, 255);
+	}
+	th, td{
+		text-align: left;
+		padding: 16px;
+	}
+	tr:nth-child(even){
+		background-color: rgb(255, 255, 255);
+	}
+
+	 .pagination_section {
+            position: relative;
+			padding-top: 30px;
+        }
+ 
+  
+        .pagination_section a {
+            color: black;
+            padding: 10px 18px;
+            text-decoration: none;
+        }
+ 
+        .pagination_section a:hover:not(.active) {
+            background-color: #031F3B;
+            color: white;
+        }
+ 
+     
+     
+      
+ 
+        .content {
+            margin: 50px;
+            padding: 15px;
+            width: 700px;
+            height: 200px;
+            border: 2px solid black;
+        }
+		.footer1{
+			height: 70px;
+			width: 100%;
+			background-color: rgb(17, 91, 155);
+			float: right;
+			text-align: center;
+		}
+</style>
+ 
+
+<nav class="menu">
+	
+
+	<div class="logo"><img style="width:130px; height:45px;float:left; padding: 12px; padding-left: 20px;" src="LOGO SMK 1.png"></img></div>
+	
+	
+	
+ 
+		<ul>
+			<li><a href="Menu Ekstrakulikuler.html">Ekstrakulikuler</a></li>
+			<li><a href="Menu Teacher.htm">Teacher</a></li>
+			<li class="dropdown"><a href="#">Program Keahlian</a>
+				<ul class="isi-dropdown">
+					<li><a href="dkv.html">Desain Komunikasi Visual</a></li>
+					<li><a href="TKJ.html">Teknik Jaringan Komputer  dan Telekomunikasi</a></li>
+					<li><a href="Pemasaran.html">Bisnis Daring dan Pemasaran</a></li>
+					<li><a href="MPLB.html">Manajemen Perkantoran dan Layanan Bisnis</a></li>
+					<li><a href="akl.html">Akuntansi dan Keuangan Lembaga</a></li>
+                    <li><a href="TITL.html"> Teknik Instalasi Tenaga Listrik </a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#">Profile</a>
+				<ul class="isi-dropdown">
+					<li><a href="Sejarah Sekolah.html">Sejarah Sekolah</a></li>
+					<li><a href="Visi dan Misi.html">Visi dan Misi</a></li>
+				
+				</ul>
+			</li>
+			
+			<li><a href="Menu Home.htm">Home</a></li>
+		</ul>
+	</div>
+</nav>
+ 
+<br/>
+<section >
+	<table class="guru">
+		<tr>
+			<th>Nama Guru</th>
+			<th>Mata Pelaaran</th>
+		</tr>
+		<tr>
+			<td>Agus Heriawan</td>
+			<td>Produk Kreatif Kewirausahaan</td>
+		</tr>
+		<tr>
+			<td>Ade Sevianto Dwitama</td>
+			<td>Desain Grafis Percetakan</td>
+		</tr>
+		<tr>
+			<td>Aep Gumiwa</td>
+			<td>Ekonomi Bisnis</td>
+		</tr>
+		<tr>
+			<td>Anjar Titayansyah</td>
+			<td>Produk Kreatif Kewirausahaan</td>
+		</tr>
+		<tr>
+			<td>Apip Farjaman</td>
+			<td>Matematika</td>
+		</tr>
+		<tr>
+			<td>Ariani Devita Sari</td>
+			<td>Bahasa Korea</td>
+		</tr>
+		<tr>
+			<td>Arlia Noviana</td>
+			<td>Bahasa Inggris</td>
+		</tr>
+		<tr>
+			<td>Asri Marheni</td>
+			<td>Seni Budaya</td>
+		</tr>
+		<tr>
+			<td>Bambang Yudiono</td>
+			<td>Akuntansi Keuangan</td>
+		</tr>
+		<tr>
+			<td>Budi</td>
+			<td>Matematika</td>
+		</tr>
+		<tr>
+			<td>Cartika Wibowo</td>
+			<td>Komputer Jaringan Dasar</td>
+		</tr>
+		<tr>
+			<td>Dedi Agustian</td>
+			<td>Produk Kreatif Kewirausahaan</td>
+		</tr>
+
+
+	</table>
+	<div class="pagination_section">
+		<a href="#"> Previous</a>
+		<a href=""class="active">1</a>
+		<a href="Page1.htm">2</a>
+		<a href="Page2.htm">3</a>
+		<a href="Page3.htm">4</a>
+		<a href="Page4.htm">5</a>
+		<a href="Page5.htm">6</a>
+		<a href="Page6.htm">7</a>
+		<a href="Page7.htm">8</a>
+		<a href="Page1.htm">Next</a>
+	</div>
+
+</section>
+<footer>
+		
+	<div class="logo"><img style="width:220px; height:80px;float:left; padding: 12px; padding-left: 50px;"
+		src="LOGO SMK 1.png"></img></div>
+	<div class="lokasi">
+		<h1 style="padding-left: 200px; padding-bottom:20px ; padding-top: 12px;">Lokasi</h1>
+		<p style="padding-left: 200px;">SMK Negeri 1 Tangerang Jl. Perintis Kemerdekaan II, </p>
+		<p style="padding-left: 200px;">Babakan, Kecamatan Tangerang, Kota Tangerang, Banten</p>
+	</div>
+	<div class="medsos">
+		<h1 style="padding-left: 200px; padding-bottom: 15px ; padding-top: 12px;">Media Sosial</h1>
+		<a  href="https://instagram.com/mpkosisnesta?igshid=YmMyMTA2M2Y=" ><i class="ig"><img style="padding-left: 200px; height:50px; width: 50px;"src="ig.png"></i></a>
+		<a  href="https://www.youtube.com/channel/UCCQ3C8H3jvjRUdnQyzz1Trg" ><i class="yt"><img style="padding-left: 10px; height:50px; width: 50px;"src="yt.png"></i></a>
+		<a  href="https://www.facebook.com/profile.php?id=100067118781957" ><i class="fb"><img style="padding-left: 10px; height:50px; width: 50px;"src="fb.png"></i></a>
+		<p  style="padding-left: 200px; padding-top: 12px;">Ayo follow dan ikuti informasi seputar kegiatan di</p>
+		<p style="padding-left: 200px ">SMK Negeri 1 Tangerang di social media kami</p>
+		
+	
+	</div>
+
+
+	
+
+
+</footer>
+<div class="footer1">
+	<p style="font-size: 20px; color: #ffffff; padding-top: 20px;">&copy;smkn1tangerang</p>
+
+	
+
+</div>
+ 
+
+ 
+</body>
+</html>
